@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "name": "FF14_Dashboard",
+  "color": "",
+  "dockState": {
+    "zones": {
+      "left": {
+        "position": "left",
+        "visible": false,
+        "size": 260,
+        "layout": null
+      },
+      "right": {
+        "position": "right",
+        "visible": false,
+        "size": 260,
+        "layout": null
+      },
+      "bottom": {
+        "position": "bottom",
+        "visible": false,
+        "size": 240,
+        "layout": null
+      },
+      "center": {
+        "position": "center",
+        "visible": true,
+        "size": 0,
+        "layout": {
+          "type": "tabs",
+          "id": "6b5475da-37d9-41f7-b528-b7e57cc5e010",
+          "panelIds": [
+            "fa1a448d-e067-489f-9b19-fd69daca97a6"
+          ],
+          "activeIndex": 0
+        }
+      }
+    }
+  },
+  "panels": {
+    "345bc385-07f7-490d-a76e-8be0848bb9a4": {
+      "type": "terminal",
+      "title": "Terminal 1"
+    },
+    "7973b73f-c304-4066-a4ed-88c0b98ed990": {
+      "type": "browser",
+      "title": "Browser",
+      "tabs": [
+        {
+          "id": "8e060395-30c6-4c88-9e04-59d71b7112ea",
+          "url": "cate://newtab",
+          "title": ""
+        }
+      ],
+      "activeTabId": "8e060395-30c6-4c88-9e04-59d71b7112ea"
+    },
+    "fa1a448d-e067-489f-9b19-fd69daca97a6": {
+      "type": "canvas",
+      "title": "Canvas"
+    }
+  },
+  "canvases": {
+    "fa1a448d-e067-489f-9b19-fd69daca97a6": {
+      "id": "fa1a448d-e067-489f-9b19-fd69daca97a6",
+      "canvasNodes": {
+        "1da9fdad-fa80-4910-b91c-0cbc62644a5b": {
+          "id": "1da9fdad-fa80-4910-b91c-0cbc62644a5b",
+          "origin": {
+            "x": 101,
+            "y": 248
+          },
+          "size": {
+            "width": 640,
+            "height": 400
+          },
+          "zOrder": 4,
+          "creationIndex": 0,
+          "animationState": "idle",
+          "dockLayout": {
+            "type": "tabs",
+            "id": "c3fcf378-b860-490b-93ff-8e1876f8e423",
+            "panelIds": [
+              "345bc385-07f7-490d-a76e-8be0848bb9a4"
+            ],
+            "activeIndex": 0
+          }
+        },
+        "06a6ea41-b127-434d-a9fd-d8fedeacc569": {
+          "id": "06a6ea41-b127-434d-a9fd-d8fedeacc569",
+          "origin": {
+            "x": 780,
+            "y": 240
+          },
+          "size": {
+            "width": 640,
+            "height": 400
+          },
+          "zOrder": 3,
+          "creationIndex": 1,
+          "animationState": "idle",
+          "dockLayout": {
+            "type": "tabs",
+            "id": "951e444b-9cb0-4c52-b96c-7bf25e64d755",
+            "panelIds": [
+              "7973b73f-c304-4066-a4ed-88c0b98ed990"
+            ],
+            "activeIndex": 0
+          }
+        }
+      },
+      "zoomLevel": 0.8761094021797179,
+      "viewportOffset": {
+        "x": 138.45909499804122,
+        "y": 134.78518254995367
+      }
+    }
+  }
+}
