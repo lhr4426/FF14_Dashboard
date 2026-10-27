@@ -1,0 +1,6 @@
+# Claude Code (local settings, session state, worktrees)
+.claude/
+CLAUDE.local.md
+
+# Personal notes
+docs/EXPERIENCE.md
